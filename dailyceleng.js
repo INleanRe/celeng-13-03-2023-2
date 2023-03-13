@@ -212,6 +212,12 @@ for(let i = 0; i<person.length; i++){
 }
 
 // person with w 
+for (i=0; i<person.length; i++){
+  if(person[i].name.includes("w")){
+    console.log(person[i].name)
+  }
+}
+
 // inactive male age >25
 for (i=0; i<person.length; i++){
   let arr = []
