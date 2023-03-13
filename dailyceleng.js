@@ -196,6 +196,7 @@ for(i = 0; i<person.length; i++){
   }
 }
 // console.log(a)
+
 // Person isactive female
 for (i=0; i<person.length; i++){
   let arr = []
@@ -204,6 +205,12 @@ for (i=0; i<person.length; i++){
   }
 }
 // person age > 30 atau dibawah 25 eyecolor blue
+for(let i = 0; i<person.length; i++){
+  if(person[i].age > 30 || (person[a].age < 25 && person[i].eyeColor === "blue")){
+      // console.log(person[i])
+  }
+}
+
 // person with w 
 // inactive male age >25
 for (i=0; i<person.length; i++){
@@ -213,6 +220,12 @@ for (i=0; i<person.length; i++){
   }
 }
 // age < 30 atau eye color brown banana
+for(let i = 0; i < person.length; i++){
+  if(person[i].age < 30 || (person[i].eyeColor === "brown" && person[i].favoriteFruit == "banana")){
+      // console.log(person[i])
+  }
+}
+
 
 // male
 for (i=0; i<person.length; i++){
